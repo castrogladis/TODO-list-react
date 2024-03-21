@@ -1,0 +1,6 @@
+.progreso {
+    display: flex;
+    font-weight: bold;   
+    justify-content: flex-end;
+    margin: 40px;
+}

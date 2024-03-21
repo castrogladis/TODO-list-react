@@ -1,0 +1,23 @@
+.CreateButton{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    width:64px;
+    height:64px;
+    background-color:#61dafa;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:50px;
+    position:fixed;
+    bottom:24px;right:24px;
+    font-weight:700;
+    color:#fafafa;
+    transform:rotate(0);
+    transition: .3s ease;
+    z-index: 1;
+}
+
+.CreateButton:hover{
+    transform:rotate(224deg);
+    box-shadow:0 5px 25px rgba(97,218,250,.5);border:none;
+}
